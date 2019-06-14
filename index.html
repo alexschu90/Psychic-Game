@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <title>PSYCHIC GAME</title>
+    </head>
+    <body>
+        <header>
+            <div class="title" >Psychic Game</div>
+        </header>
+        
+        <section class="main-content">
+        <h2>Can you guess what letter I'm thinking of ?
+            <br>
+            Type in a letter to start!
+        </h2>
+        <br>
+        <br>
+        <p id="wins-text" class="wins">Wins: 0</p>
+        <p id="losses-text" class="losses">Losses: 0</p>
+        <br>
+        <br>
+        <br>
+        <p id="guessesleft-text" class="guessCount">Guesses Left: 9</p>
+        <br>
+        <br>    
+        <p id="ypg-text" class="guessTracker">Your Past Guesses: </p>
+        </section>
+        <br>
+        <div class="hint">
+        <button onclick="hintButton()">Click me if your struggling!</button>
+        <script src="assets/javascript/game.js"></script>
+        </div>
+
+    </body>
+</html>
